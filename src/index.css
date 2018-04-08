@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #efefee;
+}
+
+.navbar{
+	background-color: #00b98d;
+	height: 85px;
+}
+
+.navbar-brand{
+	font-size: 300%;
+	font-weight: bold;
+	color: white;
+}
+
+.card{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.signup{
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+
+form{
+	margin-top: 2%;
+}
+
+.error{
+	color:red;
+}
+
+.success{
+	color:green;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 10%;
+  height: 10%;
+  margin-left: 50%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
